@@ -250,4 +250,3 @@ The long-term vision is to build a global crop intelligence platform that helps 
 📄 License
 
 This project is licensed under the MIT License.
-
