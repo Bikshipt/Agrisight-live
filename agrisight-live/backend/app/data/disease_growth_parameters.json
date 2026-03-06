@@ -1,0 +1,24 @@
+{
+  "generic": {
+    "default": {
+      "base_growth_rate": 0.08,
+      "optimal_temperature_c": 26,
+      "optimal_humidity": 0.8
+    }
+  },
+  "tomato": {
+    "early_blight": {
+      "base_growth_rate": 0.11,
+      "optimal_temperature_c": 24,
+      "optimal_humidity": 0.85
+    }
+  },
+  "rice": {
+    "brown_spot": {
+      "base_growth_rate": 0.1,
+      "optimal_temperature_c": 28,
+      "optimal_humidity": 0.9
+    }
+  }
+}
+

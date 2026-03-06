@@ -1,0 +1,4 @@
+Thumbnail Spec:
+- Dimensions: 1280x720
+- Content: A split screen showing a farmer holding a smartphone on the left, and the AgriSight Live UI with a bounding box around a plant leaf on the right.
+- Colors: Primary Green (#0FAF68) and Primary Blue (#0B74FF) accents.

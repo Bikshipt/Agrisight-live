@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sora: "Sora", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+  
+  --color-primary-green: #0FAF68;
+  --color-accent-green: #37D692;
+  --color-primary-blue: #0B74FF;
+  --color-accent-blue: #4FD1FF;
+  --color-neutral-dark: #0F1724;
+  --color-surface-white: #F6FBFF;
+}
+
+body {
+  background-color: var(--color-surface-white);
+  color: var(--color-neutral-dark);
+  font-family: var(--font-manrope);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(15, 23, 36, 0.1);
+}

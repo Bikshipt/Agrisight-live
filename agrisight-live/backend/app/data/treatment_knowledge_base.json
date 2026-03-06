@@ -1,0 +1,24 @@
+{
+  "tomato": {
+    "early_blight": {
+      "recommended_treatment": "Copper oxychloride",
+      "dosage_ml_per_acre": 150,
+      "application_window_hours": 48
+    }
+  },
+  "rice": {
+    "brown_spot": {
+      "recommended_treatment": "Carbendazim",
+      "dosage_ml_per_acre": 120,
+      "application_window_hours": 36
+    }
+  },
+  "generic": {
+    "default": {
+      "recommended_treatment": "Broad-spectrum fungicide",
+      "dosage_ml_per_acre": 100,
+      "application_window_hours": 48
+    }
+  }
+}
+

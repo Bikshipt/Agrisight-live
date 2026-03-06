@@ -1,0 +1,21 @@
+{
+  "powdery_mildew": {
+    "humidity_min": 70,
+    "temperature_range": [18, 28],
+    "rainfall_min": 0,
+    "rainfall_max": 5
+  },
+  "rice_blast": {
+    "humidity_min": 80,
+    "temperature_range": [20, 30],
+    "rainfall_min": 10,
+    "rainfall_max": 80
+  },
+  "generic_leaf_spot": {
+    "humidity_min": 65,
+    "temperature_range": [16, 30],
+    "rainfall_min": 0,
+    "rainfall_max": 50
+  }
+}
+

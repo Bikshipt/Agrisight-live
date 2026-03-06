@@ -1,0 +1,34 @@
+graph TD
+  subgraph Frontend
+    PWA[React PWA\nAgriSight Live]
+    Voice[Voice Assistant]
+    Map[Outbreak Map]
+  end
+
+  subgraph Edge
+    WS[WebSocket Gateway]
+  end
+
+  subgraph Backend
+    API[FastAPI API]
+    Engines[AI Reasoning Engines]
+  end
+
+  subgraph GCP[Google Cloud]
+    CR[Cloud Run]
+    FS[Firestore]
+    GCS[Cloud Storage]
+    VAI[Vertex AI / Gemini]
+  end
+
+  PWA --> WS --> API
+  Voice --> API
+  Map --> API
+
+  API --> Engines
+
+  API --> CR
+  Engines --> VAI
+  Engines --> FS
+  Engines --> GCS
+

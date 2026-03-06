@@ -1,0 +1,14 @@
+{
+  "modelTopology": {
+    "class_name": "Sequential",
+    "config": {
+      "name": "offline_disease_model_placeholder",
+      "layers": []
+    }
+  },
+  "weightsManifest": [],
+  "format": "layers-model",
+  "generatedBy": "AgriSight Live scaffold",
+  "convertedBy": "placeholder"
+}
+

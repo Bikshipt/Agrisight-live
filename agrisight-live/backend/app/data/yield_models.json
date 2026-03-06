@@ -1,0 +1,27 @@
+{
+  "generic": {
+    "default": {
+      "max_loss_percent": 0.3,
+      "alpha": 0.6,
+      "baseline_yield_ton_per_acre": 1.2,
+      "avg_treatment_cost_per_acre": 800
+    }
+  },
+  "tomato": {
+    "early_blight": {
+      "max_loss_percent": 0.4,
+      "alpha": 0.8,
+      "baseline_yield_ton_per_acre": 1.5,
+      "avg_treatment_cost_per_acre": 1200
+    }
+  },
+  "rice": {
+    "brown_spot": {
+      "max_loss_percent": 0.35,
+      "alpha": 0.7,
+      "baseline_yield_ton_per_acre": 1.8,
+      "avg_treatment_cost_per_acre": 900
+    }
+  }
+}
+
